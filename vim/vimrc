@@ -1,0 +1,28 @@
+syntax on               " turn syntax highlighting on by default
+filetype on             " detect type of file
+
+set number              " Enable line numbers
+set ai                  " set auto-indenting on for programming
+set laststatus=2        " Show status line on startup
+
+set nowrap              " Don't wrap long lines
+set scrolloff=5         " Leave 5 lines of buffer when scrolling
+set sidescrolloff=5     " Leave 5 characters of horizontal buffer when scrolling
+
+set hlsearch            " highlight searches
+set incsearch           " do incremental searching
+set showmatch           " jump to matches when entering regexp
+set ignorecase          " ignore case when searching
+set smartcase           " no ignorecase if Uppercase char present
+
+set clipboard=unnamed   " Clipboard support (OSX)
+set showcmd             " display incomplete commands
+set ruler               " show the current row and column
+
+set timeoutlen=1000 ttimeoutlen=0     " Remove timeout when hitting escape
+set backspace=indent,eol,start        " http://vi.stackexchange.com/a/2163
+set tabstop=4 shiftwidth=4 expandtab  " Four spaces for tabs everywhere
+set nobackup nowritebackup noswapfile " Turn off backup files
+
+colorscheme dracula
+set background=dark
