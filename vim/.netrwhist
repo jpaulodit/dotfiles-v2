@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/johnwin/Code/udemy-paas-general/paas/develop'
+let g:netrw_dirhist_2='/private/etc'
+let g:netrw_dirhist_3='/private'
+let g:netrw_dirhist_4='/private/var/tmp/_bazel_johnwin/a1ec81b22a0e8a49e46c0095fd1ebc87/execroot/envoy_api/external/com_lyft_protoc_gen_validate/validate'
+let g:netrw_dirhist_5='/Users/johnwin/Code/udemy-paas-general/paas_xds'

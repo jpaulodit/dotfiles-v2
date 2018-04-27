@@ -4,6 +4,8 @@ filetype on             " detect type of file
 set number              " Enable line numbers
 set ai                  " set auto-indenting on for programming
 set laststatus=2        " Show status line on startup
+set splitbelow          " Open new splits to the bottom
+set splitright          " Open new splits to the right
 
 set nowrap              " Don't wrap long lines
 set scrolloff=5         " Leave 5 lines of buffer when scrolling
