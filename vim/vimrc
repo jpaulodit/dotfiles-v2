@@ -1,7 +1,15 @@
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'vim-airline/vim-airline'
+Plugin 'fatih/vim-go'
+Plugin 'jiangmiao/auto-pairs'
 call vundle#end()
+
+" Highlight
+let g:go_highlight_functions = 1  
+let g:go_highlight_types = 1  
+let g:go_highlight_operators = 1  
+let g:go_highlight_build_constraints = 1 
 
 syntax on               " turn syntax highlighting on by default
 filetype plugin on      " detect type of file
