@@ -3,7 +3,15 @@ call vundle#begin()
 Plugin 'vim-airline/vim-airline'
 Plugin 'fatih/vim-go'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'shougo/deoplete.nvim'
+Plugin 'roxma/nvim-yarp'
+Plugin 'roxma/vim-hug-neovim-rpc'
 call vundle#end()
+
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
+
+inoremap <expr><tab> pumvisible()? "\<c-n>" : "\<tab>"
 
 " Highlight
 let g:go_highlight_functions = 1  
@@ -13,7 +21,7 @@ let g:go_highlight_build_constraints = 1
 
 syntax on               " turn syntax highlighting on by default
 filetype plugin on      " detect type of file
-
+filetype indent on      " indent based on filetype
 set number              " Enable line numbers
 set ai                  " set auto-indenting on for programming
 set splitbelow          " Open new splits to the bottom
@@ -36,6 +44,7 @@ set ruler               " show the current row and column
 set timeoutlen=1000 ttimeoutlen=0     " Remove timeout when hitting escape
 set backspace=indent,eol,start        " http://vi.stackexchange.com/a/2163
 set tabstop=4 shiftwidth=4 expandtab  " Four spaces for tabs everywhere
+set softtabstop=4
 set nobackup nowritebackup noswapfile " Turn off backup files
 
 colorscheme dracula
