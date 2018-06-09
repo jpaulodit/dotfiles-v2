@@ -1,16 +1,10 @@
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'vim-airline/vim-airline'
-Plugin 'fatih/vim-go'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'shougo/deoplete.nvim'
-Plugin 'roxma/nvim-yarp'
-Plugin 'roxma/vim-hug-neovim-rpc'
 call vundle#end()
 
-" Use deoplete.
-let g:deoplete#enable_at_startup = 1
-
+" makes tab key behave like down key
 inoremap <expr><tab> pumvisible()? "\<c-n>" : "\<tab>"
 
 " Highlight
