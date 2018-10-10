@@ -5,11 +5,11 @@
   inactive_color_offset = 0.705128205128
   suppress_multiple_term_dialog = True
 [keybindings]
-  cycle_next = <Primary>bracketleft
-  cycle_prev = <Primary>bracketright
-  split_horiz = <Primary><Shift>d
-  split_vert = <Primary>d
-  toggle_zoom = <Primary><Shift>Return
+  cycle_next = <Alt>bracketleft
+  cycle_prev = <Alt>bracketright
+  split_horiz = <Alt><Shift>d
+  split_vert = <Alt>d
+  toggle_zoom = <Alt><Shift>Return
 [layouts]
   [[default]]
     [[[child1]]]
